@@ -1,0 +1,30 @@
+{
+  "cpu_count": 8,
+  "generation": {
+    "generated": 10000,
+    "planned_duplicates": 219,
+    "planned_invalid": 480
+  },
+  "generation_seconds": 0.282212,
+  "measurement_notes": [
+    "Single local run; results vary with filesystem cache, CPU, and storage.",
+    "Generation time is separate from pipeline time.",
+    "Pipeline timing includes parsing, SQLite, analytics, reconciliation, and report writes."
+  ],
+  "pipeline_counts": {
+    "accepted_count": 9520,
+    "duplicate_count": 219,
+    "input_count": 10000,
+    "inserted_count": 9301,
+    "parse_error_count": 43,
+    "parsed_count": 9957,
+    "rejected_count": 480
+  },
+  "pipeline_seconds": 2.783638,
+  "platform": "Windows-10-10.0.19045-SP0",
+  "processor": "Intel64 Family 6 Model 58 Stepping 9, GenuineIntel",
+  "python_version": "3.13.1",
+  "records_requested": 10000,
+  "run_status": "succeeded_with_rejections",
+  "throughput_records_per_second": 3592.42
+}

@@ -1,0 +1,5 @@
+{"event_id":"ref-001","timestamp":"2026-10-28T09:30:00Z","service_name":"payment-service","severity":"ERROR","message":"Payment failed","status_code":500,"latency_ms":100}
+{"event_id":"ref-002","timestamp":"2026-10-28T09:31:00Z","service_name":"auth-service","severity":"INFO","message":"Login successful","status_code":200,"latency_ms":20}
+{"event_id":"ref-003","timestamp":"2026-10-28T09:32:00Z","service_name":"payment-service","severity":"FATAL","message":"Upstream unavailable","status_code":503,"latency_ms":300}
+{"event_id":"ref-003","timestamp":"2026-10-28T09:32:00Z","service_name":"payment-service","severity":"FATAL","message":"Upstream unavailable","status_code":503,"latency_ms":300}
+{"event_id": broken-json

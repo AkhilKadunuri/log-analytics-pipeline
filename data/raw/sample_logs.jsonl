@@ -1,0 +1,7 @@
+{"event_id":"evt-0001","timestamp":"2026-10-28T09:30:00Z","service_name":"payment-service","severity":"ERROR","message":"Payment failed","request_id":"req-001","status_code":500,"latency_ms":245.5}
+{"event_id":"evt-0002","timestamp":"2026-10-28T09:31:00+05:30","service_name":"auth-service","severity":"INFO","message":"Login successful","request_id":"req-002","status_code":200,"latency_ms":35.0}
+{"event_id":"evt-0003","timestamp":"2026-10-28T09:32:00Z","service_name":"payment-service","severity":"CRITICAL","message":"Upstream service unavailable","request_id":"req-003","status_code":503,"latency_ms":350.2}
+{"event_id":"evt-0001","timestamp":"2026-10-28T09:30:00Z","service_name":"payment-service","severity":"ERROR","message":"Payment failed","request_id":"req-001","status_code":500,"latency_ms":245.5}
+{"event_id":"evt-0004","timestamp":"2026-10-28T09:33:00Z","service_name":"payment-service","severity":"INFO","message":"Rejected invalid status","status_code":99,"latency_ms":10}
+{"event_id":"evt-0005","timestamp":"2026-10-28T09:34:00Z","service_name":"catalog-service","severity":"NOTICE","message":"Unknown severity"}
+{"event_id": broken-json

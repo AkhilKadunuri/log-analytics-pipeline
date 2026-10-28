@@ -1,0 +1,72 @@
+{
+  "checks": [
+    {
+      "actual": 8,
+      "check_name": "input_classification_reconciles",
+      "expected": 8,
+      "explanation": "Each nonblank source record is accepted or rejected; exact duplicates are included in accepted.",
+      "passed": true
+    },
+    {
+      "actual": 7,
+      "check_name": "parsed_record_count",
+      "expected": 7,
+      "explanation": "Parsed means the record matched JSON-object or supported plain-text syntax.",
+      "passed": true
+    },
+    {
+      "actual": 5,
+      "check_name": "accepted_duplicate_insert_reconciles",
+      "expected": 5,
+      "explanation": "Accepted records consist of newly inserted events plus exact duplicates.",
+      "passed": true
+    },
+    {
+      "actual": 4,
+      "check_name": "inserted_rows_query",
+      "expected": 4,
+      "explanation": "The target table is queried independently by run_id.",
+      "passed": true
+    },
+    {
+      "actual": 4,
+      "check_name": "primary_key_unique",
+      "expected": 4,
+      "explanation": "SQLite event_id is the primary key; the distinct count must equal the row count.",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check_name": "accepted_required_fields_valid",
+      "expected": 0,
+      "explanation": "Persisted records must have a timestamp, nonempty service, and recognized severity.",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check_name": "timestamps_normalized_to_utc",
+      "expected": 0,
+      "explanation": "Every stored timestamp uses an explicit +00:00 offset.",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check_name": "latency_business_rule",
+      "expected": 0,
+      "explanation": "Stored latency values must be nonnegative and finite.",
+      "passed": true
+    },
+    {
+      "actual": 4,
+      "check_name": "aggregate_event_total",
+      "expected": 4,
+      "explanation": "The grouped service summary total must equal the independently queried target row count.",
+      "passed": true
+    }
+  ],
+  "checks_failed": 0,
+  "checks_passed": 9,
+  "failed_checks": [],
+  "passed": true,
+  "run_id": "39a4ee0b5b3646e48d3029ff395c0f9c"
+}

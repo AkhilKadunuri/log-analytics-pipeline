@@ -1,0 +1,30 @@
+{
+  "cpu_count": 4,
+  "generation": {
+    "generated": 100000,
+    "planned_duplicates": 2046,
+    "planned_invalid": 4937
+  },
+  "generation_seconds": 1.26862,
+  "measurement_notes": [
+    "Single local run; results vary with filesystem cache, CPU, and storage.",
+    "Generation time is separate from pipeline time.",
+    "Pipeline timing includes parsing, SQLite, analytics, reconciliation, and report writes."
+  ],
+  "pipeline_counts": {
+    "accepted_count": 95063,
+    "duplicate_count": 2046,
+    "input_count": 100000,
+    "inserted_count": 93017,
+    "parse_error_count": 459,
+    "parsed_count": 99541,
+    "rejected_count": 4937
+  },
+  "pipeline_seconds": 15.541835,
+  "platform": "Linux-6.18.59-x86_64-with-glibc2.40",
+  "processor": "not reported",
+  "python_version": "3.12.12",
+  "records_requested": 100000,
+  "run_status": "succeeded_with_rejections",
+  "throughput_records_per_second": 6434.25
+}

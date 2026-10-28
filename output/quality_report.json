@@ -1,0 +1,34 @@
+{
+  "counts": {
+    "accepted_count": 5,
+    "duplicate_count": 1,
+    "input_count": 8,
+    "inserted_count": 4,
+    "parse_error_count": 1,
+    "parsed_count": 7,
+    "rejected_count": 3
+  },
+  "missing_optional_values": {
+    "latency_ms": 0,
+    "request_id": 0,
+    "status_code": 0
+  },
+  "percentile_method": "inclusive linear interpolation at position (n - 1) * q",
+  "reconciliation_passed": true,
+  "rejection_reason_counts": {
+    "malformed JSON: Expecting value": 1,
+    "status_code must be between 100 and 599": 1,
+    "unknown severity: 'NOTICE'": 1
+  },
+  "run_id": "39a4ee0b5b3646e48d3029ff395c0f9c",
+  "run_status": "succeeded_with_rejections",
+  "severity_distribution": {
+    "DEBUG": 0,
+    "ERROR": 2,
+    "FATAL": 1,
+    "INFO": 1,
+    "WARNING": 0
+  },
+  "stored_event_count": 4,
+  "time_window_utc": "hour"
+}
