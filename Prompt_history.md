@@ -70,7 +70,7 @@ Areas reviewed included:
 **Outcome:**
 Refined the implementation and used automated tests and pipeline runs to verify the changes.
 
-## 6. Debugging and Corrections
+## 7. Debugging and Corrections
 
 ### Issue : Windows Temporary Database File Lock
 
@@ -101,7 +101,7 @@ Refined the implementation and used automated tests and pipeline runs to verify 
 - Checked how malformed records, rejected records, and duplicates were represented in the benchmark results.
 - Used automated tests to verify that changes to connection handling did not break existing functionality.
 
-## 7. Automated Testing
+## 8. Automated Testing
 
 **Questions:**
 - How can individual processing functions be tested?
@@ -112,7 +112,7 @@ Refined the implementation and used automated tests and pipeline runs to verify 
 **Outcome:**
 Ran the automated test suite and used the results to verify the implemented functionality.
 
-## 8. Performance Testing
+## 9. Performance Testing
 
 **Questions:**
 - How does the pipeline perform with larger datasets?
@@ -122,7 +122,7 @@ Ran the automated test suite and used the results to verify the implemented func
 **Outcome:** 
 Executed benchmark runs with 10,000 and 100,000 input records and reviewed processing time, throughput, and record-count statistics.
 
-## 9. Final Validation
+## 10. Final Validation
 
 Before preparing the repository for submission, the following were checked:
 
