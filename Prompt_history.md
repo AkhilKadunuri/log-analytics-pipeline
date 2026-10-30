@@ -1,6 +1,37 @@
 # Prompt History — Log Analytics Pipeline
+## 1. AI Usage and Contribution
 
-## 1. Understanding the Requirements
+### AI Tools Used
+- ChatGPT and Claud AI was used as an AI assistance tool during project development.
+
+### Where AI Assisted
+
+AI assistance was used in several stages of the project:
+
+1. **Project planning:** Understanding the requirements, breaking the project into modules, and organizing the development workflow.
+2. **Code implementation:** Generating and suggesting Python code for parts of the pipeline, including log parsing, validation, data processing, database operations, and report generation.
+3. **Debugging:** Understanding error messages, investigating unexpected behavior, and identifying possible fixes.
+4. **Testing:** Getting guidance on test cases, edge cases, and validation approaches.
+5. **Documentation:** Improving the README, project explanations, and submission documentation.
+
+### Where AI Assistance Was Significant
+
+AI assistance was significant during the implementation of the project. It helped accelerate the development of several components and provided code suggestions and implementation approaches.
+
+### My Personal Work and Verification
+
+My involvement included:
+
+- Understanding the project requirements and expected output.
+- Setting up and organizing the project locally.
+- Running the application and investigating errors.
+- Reviewing implementation suggestions and making corrections.
+- Executing automated tests and checking the results.
+- Running the pipeline with sample and larger datasets.
+- Reviewing generated reports and reconciliation results.
+- Preparing the project documentation and GitHub repository.
+
+## 2. Understanding the Requirements
 
 **Objective:** Build a Python-based log analytics pipeline that processes structured and semi-structured application logs.
 
@@ -13,7 +44,7 @@
 **Outcome:**
 Defined the main workflow: ingestion, parsing, validation, transformation, analytics, and report generation.
 
-## 2. Project Structure and Setup
+## 3. Project Structure and Setup
 
 **Questions:**
 - How should the Python project be organized?
@@ -23,7 +54,7 @@ Defined the main workflow: ingestion, parsing, validation, transformation, analy
 **Outcome:**
 Organized the project into source modules, test files, data directories, documentation, and reports.
 
-## 3. Log Parsing and Normalization
+## 4. Log Parsing and Normalization
 
 **Questions:**
 - How can structured and semi-structured log records be parsed?
@@ -34,7 +65,7 @@ Organized the project into source modules, test files, data directories, documen
 **Outcome:** 
 Implemented the parsing and normalization workflow to convert supported log formats into a consistent representation.
 
-## 4. Validation and Data Quality
+## 5. Validation and Data Quality
 
 **Questions:**
 - How should invalid records be identified?
@@ -45,7 +76,7 @@ Implemented the parsing and normalization workflow to convert supported log form
 **Outcome:**
 Added data-quality checks and reporting for invalid records, duplicate records, and processing counts.
 
-## 5. Analytics and Output Generation
+## 6. Analytics and Output Generation
 
 **Questions:**
 - How can error rates be summarized?
@@ -56,7 +87,7 @@ Added data-quality checks and reporting for invalid records, duplicate records, 
 **Outcome:**
 Developed reporting for error rates, latency, service summaries, and data quality.
 
-## 6. Error Handling and Debugging
+## 7. Error Handling and Debugging
 
 During implementation, the code and its outputs were checked against expected behavior. Unexpected results were investigated by examining error messages, reviewing the relevant logic, and rerunning tests after changes.
 
@@ -70,7 +101,7 @@ Areas reviewed included:
 **Outcome:**
 Refined the implementation and used automated tests and pipeline runs to verify the changes.
 
-## 7. Debugging and Corrections
+## 8. Debugging and Corrections
 
 ### Issue : Windows Temporary Database File Lock
 
@@ -101,7 +132,7 @@ Refined the implementation and used automated tests and pipeline runs to verify 
 - Checked how malformed records, rejected records, and duplicates were represented in the benchmark results.
 - Used automated tests to verify that changes to connection handling did not break existing functionality.
 
-## 8. Automated Testing
+## 9. Automated Testing
 
 **Questions:**
 - How can individual processing functions be tested?
@@ -112,7 +143,7 @@ Refined the implementation and used automated tests and pipeline runs to verify 
 **Outcome:**
 Ran the automated test suite and used the results to verify the implemented functionality.
 
-## 9. Performance Testing
+## 10. Performance Testing
 
 **Questions:**
 - How does the pipeline perform with larger datasets?
@@ -122,7 +153,7 @@ Ran the automated test suite and used the results to verify the implemented func
 **Outcome:** 
 Executed benchmark runs with 10,000 and 100,000 input records and reviewed processing time, throughput, and record-count statistics.
 
-## 10. Final Validation
+## 11. Final Validation
 
 Before preparing the repository for submission, the following were checked:
 
@@ -133,6 +164,5 @@ Before preparing the repository for submission, the following were checked:
 - Larger benchmark runs.
 - Project documentation and setup instructions.
 
-**Outcome:** 
 The recorded test and benchmark runs completed successfully, with invalid records reported as expected for generated datasets containing invalid entries.
 
