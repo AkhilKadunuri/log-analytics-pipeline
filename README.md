@@ -15,8 +15,7 @@ data.
 
 ## Scope and non-goals
 
-This is a local assessment project for a single-machine workload. It supports
-two explicit line-oriented formats, SQLite persistence, repeatable batch runs,
+It supports two explicit line-oriented formats, SQLite persistence, repeatable batch runs,
 CSV/JSON outputs, and synthetic data. It is not a general-purpose parser,
 distributed stream processor, cloud service, or production observability
 platform. Kafka, Spark, Airflow, cloud storage, and arbitrary vendor-specific
@@ -286,24 +285,6 @@ avoid sharing it, and apply your organization's retention policy. SQL values
 are parameterized, log text is never executed, and credentials are not needed.
 The repository ignores generated datasets, output databases, virtual
 environments, and caches.
-
-## Troubleshooting
-
-See [`docs/troubleshooting.md`](docs/troubleshooting.md) for common setup,
-format, database, and output issues.
-
-## Suggested commit plan
-
-1. `chore: initialize project structure`
-2. `feat: add parsing and validation`
-3. `feat: add normalization and quarantine`
-4. `feat: add SQLite persistence and idempotency`
-5. `feat: add error and latency analytics`
-6. `test: cover pipeline edge cases`
-7. `feat: add generator and benchmark`
-8. `docs: add architecture and execution evidence`
-
-This working directory has not been committed or pushed by the pipeline.
 
 ## Future improvements
 
